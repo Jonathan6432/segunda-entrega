@@ -8,14 +8,18 @@
 </head>
 <body>
     <header class="encabezado">
-        <h2>MI NOMBRE</h2>
+        <a href="#">  <h2>MI NOMBRE</h2></a>
         <nav class="menu">
             <ul>
-            <li><a href=""> PORTAFOLIO</a></li>
-            <li> <a href="">SOBRE MÍ </a></li>
-            <li><a href="">CONTACTO</a></li>
+            <li><a href="#portafolio"> PORTAFOLIO</a></li>
+            <li> <a href="#sobre-mi">SOBRE MÍ </a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
+      
+            <div class="boton-menu">
+                <a href="#" class="btn-menu ">Menu<img src="img/menu.svg" alt="">
+                </a>
     </header>
 
 
@@ -23,17 +27,17 @@
         <img src="img/avataaars.svg" alt="foto de avatar">
         <h2 class="titulos-blanco">MI NOMBRE</h2>
         <div class="linea">
-            <hr class="linea-W"> <p class="estrella-W">☆</p><hr class="linea-W">
+            <hr class="linea-W"> <p class="estrella-W">★</p><hr class="linea-W">
            </div>
       
         <p>Maquetador/a Web - Entusiaste - Autodidacta</p>
     </section>
 
-    <section class="ctn-titulo">
+    <section class="ctn-titulo" id="portafolio">
         <h3 class="titulos-azul">PORTAFOLIO</h3>
  
             <div class="linea">
-                <hr class="linea-A"> <p class="estrella-A">☆</p><hr class="linea-A">
+                <hr class="linea-A"> <p class="estrella-A">★</p><hr class="linea-A">
                </div>
             </section>
 
@@ -66,10 +70,10 @@
         
 
 
-    <main class="sobre-mi">
+    <main class="sobre-mi" id="sobre-mi">
         <h3 class="titulos-blanco">SOBRE MÍ</h3>
         <div class="linea">
-            <hr class="linea-W"> <p class="estrella-W">☆</p><hr class="linea-W">
+            <hr class="linea-W"> <p class="estrella-W">★</p><hr class="linea-W">
            </div>
            <div class="ctn-parrafos">
             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quis nulla fugit perspiciatis sequi sed accusantium a aperiam. Repellendus doloremque, ipsum hic enim inventore quod nesciunt laborum distinctio ex nobis?</P>
@@ -78,15 +82,15 @@
 
            </div>
            <div class="boton">
-            
-            <a href="#"><img src="img/download.png" alt="">Descargar CV</a>
+            <a href="#"><img src="img/download.png" alt="">Descargar CV
+            </a>
            </div>
     </main>
 
-    <section class="contacto">
+    <section class="contacto" id="contacto">
         <h3 class="titulos-azul">CONTACTO</h3>
         <div class="linea">
-            <hr class="linea-A"> <p class="estrella-A">☆</p><hr class="linea-A">
+            <hr class="linea-A"> <p class="estrella-A">★</p><hr class="linea-A">
            </div>
 
         <form action="">
@@ -94,23 +98,23 @@
             <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-            <label for="numero">Número de teléfono</label>
+            <label for="numero">Número de Teléfono</label>
             <input type="tel" id="numero" name="numero" required>
             <label for="mensaje">Mensaje</label>
             <textarea id="message" name="message" required></textarea>
-            <a href="#" class="boton">send</a>
+            <a href="#" class="boton-send">send</a>
         </form>
     </section>
     <footer>
-        <div>
+        <div class="seccion-footer">
             <h3>MI LUGAR</h3>
             <P>Calle N</P>
             <p>Ciudad,Estado CP</p>
         </div>
 
-        <div>
+        <div class="seccion-footer" >
             <h3>SIGAMOS CONECTADOS</h3>
-           <div>
+           <div class="logos">
             <img src="img/facebook.svg" alt="logo de facebook">
             <img src="img/instagram.svg" alt="logo de instagram">
             <img src="img/linkedin.svg" alt="logo de linkedin">
@@ -118,7 +122,7 @@
            </div>
         </div>
 
-        <div>
+        <div class="seccion-footer">
             <h3>SOBRE MÍ</h3>
             <p>Soy una persona creativa y con ansias de aprender. Tengo conocimientos de HTMl, CSS y Bootstrap.</p>
         </div>
