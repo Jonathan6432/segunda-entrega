@@ -1,0 +1,144 @@
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background-color: #563E5A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height:100px;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.ctn-avatar{
+    height: 586px;
+    background-color: #9B8E90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.ctn-avatar img{
+    width: 200px;
+}
+
+.ctn-avatar h2{
+    color:white;
+    font-size: 68px;
+}
+
+.linea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctn-avatar p{
+    font-size: 28px;
+    color: white;
+}
+
+
+/* ------------------------------- */
+
+.linea-W{
+    margin: 20px;
+    width: 100px;
+    border: 2px solid white;
+}
+
+.estrella-W{
+    color: white;
+    font-size: 22px;
+}
+
+.linea-A{
+    margin: 20px;
+    width: 100px;
+    border: 2px solid #2C3E51;
+}
+
+.estrella-A{
+    color:#2C3E51 ;
+    font-size: 22px;
+}
+
+
+.titulos-blanco{
+    color: white;
+    font-size: 68px;
+}
+
+.titulos-azul{
+    color:#2C3E51 ;
+    font-size: 68px;
+}
+
+/* -------------------------------- */
+.ctn-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+.body-card {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    width:30%;
+    height: 300px;
+    text-align: center;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+.sobre-mi{
+    height:586px ;
+    background-color: #9B8E90;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.ctn-parrafos{
+    display: flex;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.ctn-parrafo p{
+    margin: 10px;
+    width: 20%;
+}
