@@ -83,7 +83,7 @@ body {
   color: white;
 }
 
-/* ------------------------------- */
+/* -------------estilos generales------------------ */
 
 .linea {
   margin-bottom: 50px;
@@ -121,7 +121,7 @@ body {
   font-size: 68px;
 }
 
-/* -------------------------------- */
+/* ------------------------------------------ */
 .ctn-titulo {
   display: flex;
   flex-direction: column;
@@ -194,7 +194,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35%;
+  width: 15%;
   padding: 20px;
   font-size: 18px;
 }
