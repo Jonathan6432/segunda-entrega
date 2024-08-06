@@ -28,9 +28,9 @@ body {
   text-decoration: none;
   padding: 10px;
 }
-
+/* --------------------------------------------------------- */
 .boton-menu {
-  display: none;
+  display: none;/* Se oculta el boton de menu */
 }
 
 .boton-menu .btn-menu {
@@ -52,6 +52,8 @@ body {
   filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%)
     hue-rotate(38deg) brightness(110%) contrast(101%);
 }
+
+/* ---------------------------------------------------------- */
 
 .ctn-avatar {
   height: 586px;
@@ -194,9 +196,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15%;
+  width: 20%;
   padding: 20px;
   font-size: 18px;
+  margin-top: 50px;
 }
 .boton img {
   width: 35px;
@@ -313,6 +316,11 @@ footer {
     height: auto;
     padding: 80px;
   }
+  .boton a {
+    width: 40%;
+    margin-top: 50px;
+  ;
+  }
   .ctn-parrafos {
     width: 100%;
     display: flex;
@@ -346,10 +354,10 @@ footer {
 
 @media (max-width: 767px) {
   .menu {
-    display: none;
+    display: none; /* Se oculta las letras */
   }
   .boton-menu {
-    display: block;
+    display: block;/* Se muetra el boton de menu hamburguesa */
   }
 
   .ctn-avatar {
